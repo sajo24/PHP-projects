@@ -1,0 +1,210 @@
+body{ 
+  background:#CFEFFA; 
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+/* index.php*/
+.slider{
+	margin:5px;
+	margin-top:20px;
+	width:auto;
+	height:550px;
+	background-color:white;
+	border-radius:25px;
+	padding:20px;
+}
+.carousel-item img{
+	width: auto;
+	height: 500px;
+	max-height: 500px;
+}
+.carousel-caption-bg{
+	background-color:rgba(131, 136, 138, 0.5);
+	border-radius:15px;
+}
+.carousel-caption-bg h3 {
+	font-weight: bold;
+}
+.nav{
+	background-color:black;
+	border-radius:0 0 15px 15px;
+}
+.nav a{
+	color:red;
+}
+.sidebar{
+	background-color:#e0e0e0;
+	margin-left:30px;
+	margin-top:20px;
+	padding:10px;
+	border-radius:15px;
+	height:550px;
+	max-height:1600px;
+	overflow-y:auto;
+	float:right;
+	
+}
+.sidebar a{
+	display:block;
+	text-decoration:none;
+}
+.card{
+	width: 100%;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.card-title{
+	font-size:0.8em;
+}
+.card-block p{
+	font-size:0.5em;
+}
+#creator{
+	color:red;
+}
+.top10{
+	width:100%;
+	height:300px;
+	margin:15%;
+	border:2px solid black;
+	position:relative;
+	top:50px;
+	background:white;
+	border-radius:15px;
+}
+.top10 .row{
+	width:104%;
+	height:290px;
+	position:relative;
+	bottom:176px;
+}
+
+.top10 .thumbnail{
+	width:20%;
+	height:100%;
+	text-align:center;
+}
+.top10 .caption{
+	height:50px;
+}
+
+.top10video{
+	margin-top:10px;
+	border:6px solid #e0e0e0;
+}
+/*header*/
+header img{
+	width:100%;
+	height:100px;
+}
+/*header end*/
+.about_us-container{
+	margin-top:70px;
+	width:130%;
+	height:200px;
+}
+.about_us-container img{
+	position:relative;
+	z-index:10;
+	float:right;
+	bottom:230px;
+	right:20px;
+	height:220px;
+	width:270px;
+}
+.about_us{
+	width:99%;
+	height:auto;
+	margin:5px;
+	padding:10px;
+	background:white;
+	border:2px solid red;
+	border-radius:25px;
+}
+#a-title{
+	font-size:25px;
+}
+#a-text{
+	padding-right:250px;
+}
+/*index.php end*/
+
+/*list_blogs*/
+.blog-wrapper{
+	background-color:red;
+	margin-right:4%;
+	margin-left:4%;
+	margin-top:20px;
+	border-radius:25px;
+}
+.jumbotron{
+	width:90%;
+	margin-right:4%;
+	margin-left:4%;
+	margin-top:20px;
+	border:2px solid white;
+}
+.jumbotron img{
+	margin-top:-60px;
+	width:100%; 
+	height:350px;
+	border:2px solid black;
+}
+.jumbotron p{
+	margin:5px;
+}
+.list-blog-date{
+	font-size:13px;
+	color:red;
+	margin:5px;
+}
+.list-blog-writer{
+	color:red;
+	font-size:13px;
+	float:right;
+	margin:5px;
+}
+.list-buttons{
+	margin:5px;
+	margin-top:20px;
+	position:relative;
+	top:20px;
+}
+.list-blogs-buttons{
+	border:2px solid black;
+	background-color:red;
+	color:white;
+}
+/*list_blogs end*/
+
+/*latest_news*/
+.news-content{
+	background:red;
+	height:auto;
+	margin-top:20px;
+	margin-left:4%;
+	border-radius:25px;
+}
+.news-content .jumbotron {
+	margin:25px;
+}
+.news-content .jumbotron img{
+	width:100%;
+	height:150px;
+	max-height:150px;
+	
+}
+.pagination-menu{
+	width:30%;
+	margin:0 auto;
+}
+/*historic games*/
+
+.historic-content{
+	width:100%;
+	background:red;
+	margin-top:20px;
+	margin-left:4%;
+	margin-right:4%;
+	border-radius:25px;
+}

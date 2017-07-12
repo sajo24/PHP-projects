@@ -1,0 +1,79 @@
+body{ 
+  background-image: url('../images/bg.jpg'); 
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+/* index.php*/
+.main-wrapper{
+	margin-right:4%;
+	margin-left:4%;
+	margin-top:20px;
+	width:auto;
+	height:auto;
+	background-color:blue;
+	border-radius:25px;
+}
+
+.carousel-caption-bg{
+	background-color:rgba(131, 136, 138, 0.5);
+	border-radius:15px;
+}
+.carousel-caption-bg h3 {
+	font-weight: bold;
+}
+.nav{
+	background-color:black;
+	border-radius:0 0 15px 15px;
+}
+.nav a{
+	color:red;
+}
+/*index.php end*/
+
+/*list_blogs*/
+.blog-wrapper{
+	background-color:red;
+	margin-right:4%;
+	margin-left:4%;
+	margin-top:20px;
+	border-radius:25px;
+}
+.jumbotron{
+	width:90%;
+	margin-right:4%;
+	margin-left:4%;
+	margin-top:20px;
+	border:2px solid white;
+}
+.jumbotron img{
+	margin-top:-60px;
+	width:100%; 
+	height:350px;
+	border:2px solid black;
+}
+.jumbotron p{
+	margin:5px;
+}
+.list-blog-date{
+	font-size:13px;
+	color:red;
+	margin:5px;
+}
+.list-blog-writer{
+	color:red;
+	font-size:13px;
+	float:right;
+	margin:5px;
+}
+.list-buttons{
+	margin:5px;
+	margin-top:20px;
+	position:relative;
+	top:20px;
+}
+.list-blogs-buttons{
+	border:2px solid black;
+	background-color:red;
+	color:white;
+}
+/*list_blogs end*/
